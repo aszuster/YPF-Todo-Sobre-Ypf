@@ -1,0 +1,205 @@
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-bottom: 100px;
+}
+.grilla div {
+    padding: 44px;
+    background-color: var(--grey-100);
+    border-radius: 8px;
+}
+.grilla div p b {
+    color: var(--grey-900);
+    margin-bottom: 15px;
+    display: block;
+    font-size: 18px;
+    line-height: 24px;
+}
+.one {
+    background-color: var(--primary-700)!important;
+    color: white;
+}
+.one h6:after {
+    content: "";
+    display: block;
+    margin: 30px 0;
+    background-color: white;
+    height: 1px;
+    width: 120px;
+}
+.one p {
+    color: white;
+}
+.two, .three, .four, .five, .six, .seven {
+    display: none;
+}
+
+.one {
+    grid-column: 1 / 4;
+    grid-row: 1 / 5;
+}
+.two {
+    grid-column: 2;
+    grid-row: 1;
+}
+.three {
+    grid-column: 3;
+    grid-row: 1;
+}
+.four {
+    grid-column: 2 / 4;
+    grid-row: 2;
+}
+.five {
+    grid-column: 2;
+    grid-row: 3;
+}
+.six {
+    grid-column: 3;
+    grid-row: 3;
+}
+.seven {
+    grid-column: 2 / 4;
+    grid-row: 4;
+}
+.grilla div ul {
+    font-size: var(--fs-200);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-155);
+    color: var(--grey-700);
+}
+.grilla div ul {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.grilla div ul li {
+    list-style-type: disc;  
+}
+@media only screen and (min-width: 700px) { 
+    .one {
+        grid-column: 1;
+        grid-row: 1 / 5;
+    }
+    .two, .three, .four, .five, .six, .seven {
+        display: block;
+    }
+}
+
+
+/* SECTION PROTOCOLOS */
+
+.owl-tipos-violencia {
+    margin-left: -50px;
+    margin-bottom: 30px;
+}
+
+.owl-tipos-violencia .owl-stage-outer {
+    overflow: visible;
+}
+
+#nav-tipos-violencia .owl-prev {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: relative;
+    top: 1px;
+}
+
+
+/* ARROWS OWL CAROUSEL */
+
+#aca .owl-prev {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: relative;
+    top: 1px;
+}
+.counter-box {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 60px;
+    color: var(--grey-900);
+}
+.cantidad {
+    color: var(--grey-500);
+}
+.cantidad i {
+    font-style: normal;
+    color: var(--primary-700);
+}
+.owl-nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+.owl-nav button {
+    background: transparent;
+    border: 0;
+    margin-right: 16px;
+}
+.owl-nav button img {
+    width: 32px;
+}
+.owl-nav .disabled {
+    opacity: .4;
+    filter: grayscale(100%);
+}
+.slider-tipos-violencia {
+    padding-left: 15px;
+    overflow: hidden;
+}
+.banner-diversidad img {
+    width: 100%;
+}
+.banner-diversidad {
+    position: relative;
+    padding-bottom: 50px;
+    margin-bottom: 80px;
+}
+.banner-diversidad:after {
+    content: "";
+    background: url("../images/dots-white.png") no-repeat center center;
+    background-size: contain;
+    width: 402px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.modalidades-de-violencia .h3 {
+    line-height: 50px;
+}
+.modalidades-de-violencia h6 {
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--grey-900);
+    position: relative;
+    padding-left: 40px;
+}
+.modalidades-de-violencia h6 span {
+    color: var(--primary-700);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.modalidades-de-violencia-row {
+    border-top: 1px solid #E1E5EC;
+    padding-top: 42px;
+    margin-bottom: 42px;
+}
+.owl-tipos-violencia  .owl-stage {
+    display: flex;
+}
+.owl-tipos-violencia  .owl-stage .owl-item {
+    background-color: var(--grey-100);
+    border-radius: 8px;
+}

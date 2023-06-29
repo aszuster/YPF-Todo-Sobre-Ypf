@@ -1,0 +1,500 @@
+.my-32 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.m-b35 {
+  margin-bottom: 35px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.m-t60 {
+  margin-top: 60px;
+}
+
+.c-wht {
+  color: var(--grey-0);
+}
+
+.c-box-gray-call-to-action {
+  background-image: url("../images/diversidad-index/banner-historias.jpg");
+  background-position: center;
+}
+
+/* MANIFIESTO */
+
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1;
+}
+
+.three {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.four {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.five {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.six {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.seven {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.eight {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+.c-box-gray-only-text .check-icon {
+  width: 20px !important;
+  height: 20px;
+  margin-bottom: 14px;
+}
+
+.c-box-gray-only-text {
+  height: 200px;
+}
+
+/* MANIFIESTO SLIDER */
+
+.slider-diversidad-manifiesto {
+  padding-left: 15px;
+  overflow: hidden;
+}
+
+.owl-diversidad-manifiesto {
+  margin-left: -40px;
+  margin-bottom: 30px;
+}
+
+.owl-diversidad-manifiesto .owl-stage-outer {
+  overflow: visible;
+}
+
+/* ARROWS OWL CAROUSEL */
+
+#nav-diversidad-manifiesto .owl-prev {
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  position: relative;
+  top: 1px;
+}
+.counter-box {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 60px;
+  color: var(--grey-900);
+}
+.cantidad {
+  color: var(--grey-500);
+}
+.cantidad i {
+  font-style: normal;
+  color: var(--primary-700);
+}
+.owl-nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+.owl-nav button {
+  background: transparent;
+  border: 0;
+  margin-right: 16px;
+}
+.owl-nav button img {
+  width: 32px;
+}
+.owl-nav .disabled {
+  opacity: 0.4;
+  filter: grayscale(100%);
+}
+
+/* COMITE DE DIVERSIDAD */
+
+.cta-section {
+  padding: 60px 0;
+  text-align: center;
+  padding-right: 0px;
+  padding-left: 0px;
+  overflow: hidden;
+}
+
+.cta-section button {
+  width: 100%;
+}
+
+.cta-section img {
+  width: 100%;
+}
+
+.cta-section video {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .cta-section {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cta-section button {
+    width: auto;
+  }
+  .cta-section img {
+    margin-top: 0px;
+  }
+  .cta-section-right {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+    padding-left: 52px;
+  }
+  .cta-section-left {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+.section-spotify {
+  background-color: var(--grey-900);
+  text-align: center;
+  padding: 60px 0;
+}
+
+.section-spotify p {
+  background-color: var(--grey-900);
+  text-align: center;
+  padding: 20px 0 60px 0;
+  max-width: 624px;
+  text-align: center;
+  margin: auto;
+}
+
+.section-spotify .c-hr {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--grey-0);
+}
+
+@media only screen and (min-width: 768px) {
+  .section-spotify {
+    padding: 80px 0;
+  }
+}
+
+/* SECTION VIDEOS */
+
+.section-videos {
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.section-videos-title {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.video-tag {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-size: 14px;
+  color: var(--primary-700);
+  background-color: var(--grey-0);
+  padding: 4px 12px;
+  border-radius: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+  .section-videos {
+    position: relative;
+    margin-bottom: 300px;
+  }
+  .section-videos-title {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+  }
+  .videos-title-text {
+    width: 480px;
+    color: white;
+  }
+  .videos-title-text p {
+    color: white;
+  }
+  .videos-title-text small {
+    color: white;
+  }
+
+  .campanias-videos {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    padding-right: 0;
+  }
+  .campanias-videos h6 {
+    color: white;
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .section-videos-title {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .section-videos-title {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+  }
+  .campanias-videos {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .section-videos-title {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+  }
+  .campanias-videos {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+  }
+}
+
+.owl-videos .owl-nav {
+  display: none !important;
+}
+
+.owl-videos .owl-stage-outer {
+  overflow: hidden;
+}
+
+.videos-main-image {
+  width: 100%;
+  height: auto;
+}
+
+.campanias-videos {
+  display: flex;
+  flex-direction: column;
+}
+
+/* MAS DIVERSIDAD */
+
+.mas-diversidad-img {
+  max-width: 100%;
+}
+
+.mas-diversidad-video button {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .mas-diversidad-video button {
+    width: auto;
+  }
+}
+
+/* DIVERSIDAD YPF */
+
+.diversidad-ypf-section {
+  position: relative;
+  height: 100%;
+  margin: 0 0 100px 0;
+}
+
+.card {
+  background-color: var(--grey-50);
+  padding: 32px;
+  margin: 24px 0;
+  border-radius: 12px;
+}
+
+.card-grey {
+  margin-inline: auto;
+}
+
+.card-grey {
+  margin: 15px;
+}
+
+.grey-dot-grid-bg-mobile {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+
+.card-grey-container {
+  margin-top: 230px;
+}
+
+.card-grey-inside-dsk {
+  display: none;
+}
+
+.card-grey-icons {
+  display: flex;
+  margin-top: 24px;
+}
+
+.card-grey-icons img {
+  width: 40px;
+  height: 40px;
+}
+
+.card-grey-icons a {
+  margin-right: 12px;
+}
+
+@media only screen and (min-width: 700px) {
+  .one {
+    grid-column: 1;
+    grid-row: 1 / 5;
+  }
+
+  .m-t60 {
+    margin-top: 100px;
+  }
+
+  .grey-dot-grid-bg-desktop {
+    width: 810px;
+    height: 604px;
+    position: absolute;
+    z-index: -1;
+  }
+  .card-grey-container {
+    margin-top: 76px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20%;
+  }
+
+  .card-grey {
+    margin: auto;
+  }
+  .card-grey {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    width: 798px;
+  }
+
+  .card-grey-inside-dsk {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65%;
+    height: 340px;
+    background-color: var(--grey-0);
+    padding: 32px;
+    border-radius: 8px;
+  }
+  .card-grey-inside-dsk h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .card-grey-inside-dsk hr {
+    width: 40px;
+  }
+  .card-grey-inside-dsk img {
+    height: 16px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .card-grey-container {
+    margin-left: 35%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .section-spotify {
+    padding: 100px 0;
+  }
+}

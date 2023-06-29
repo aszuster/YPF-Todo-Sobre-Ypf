@@ -1,0 +1,96 @@
+.heros-historias small {
+    color: var(--grey-500);
+    font-weight: var(--fw-bold);
+    text-align: right;
+    display: block;
+    font-size: 18px;
+}
+.owl-pagina-historias .owl-stage {
+    padding: 40px 0;
+}
+
+@media screen and (min-width:1200px) {
+    .contenedor-slider {
+        overflow: hidden;
+        min-height: 330px;
+    }
+    .contenedor-slider-absolute {
+        position: absolute;
+        width: 100%;
+        overflow: hidden;
+    }
+    .contenedor-slider .wrapper {
+        position: relative;
+    }
+    .contenedor-slider .wrapper,
+    .contenedor-slider .owl-stage-outer {
+        overflow: visible;
+    }
+    .contenedor-slider .wrapper:before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        background-color: white;
+        width: 500px;
+        left: -500px;
+        top: 0;
+        z-index: 3;
+    }
+}
+@media screen and (min-width:1400px) {
+    .contenedor-slider {
+        min-height: 360px;
+    }
+}
+.historia-destacada {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.historia-destacada:hover img {
+    opacity: .6;
+}
+.historia-destacada:hover figure:before {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.historia-destacada img {
+    width: 100%;
+    border-radius: 12px;
+}
+.historia-destacada p {
+    margin-bottom: 24px;
+}
+.icon-video {
+    position: relative;
+}
+.icon-video figure:before {
+    content: "";
+    background: url("../images/icons/icon_play-blue.svg") no-repeat center center;
+    display: block;
+    position: absolute;
+    z-index: 99;
+    width: 20px;
+    height: 20px;
+    background-size: 12px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 100px;
+    left: 45%;
+    top: 40%;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+@media screen and (min-width:1100px) {
+    .historia-destacada {
+        margin-bottom: 80px;
+    }
+    .historia-destacada .destacada-info {
+        padding-left: 80px;
+    }
+}

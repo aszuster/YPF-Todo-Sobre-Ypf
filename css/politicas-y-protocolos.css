@@ -1,0 +1,67 @@
+/* SECTION PROTOCOLOS */
+
+.owl-protocolos {
+    margin-left: -50px;
+}
+
+.owl-protocolos .owl-stage-outer {
+    overflow: visible;
+}
+
+#nav-protocolos .owl-prev {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: relative;
+    top: 1px;
+}
+
+
+/* ARROWS OWL CAROUSEL */
+
+#aca .owl-prev {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: relative;
+    top: 1px;
+}
+.counter-box {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 60px;
+    color: var(--grey-900);
+}
+.cantidad {
+    color: var(--grey-500);
+}
+.cantidad i {
+    font-style: normal;
+    color: var(--primary-700);
+}
+.owl-nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+.owl-nav button {
+    background: transparent;
+    border: 0;
+    margin-right: 16px;
+}
+.owl-nav button img {
+    width: 32px;
+}
+.owl-nav .disabled {
+    opacity: .4;
+    filter: grayscale(100%);
+}
+
+.slider-protocolo {
+    padding-left: 15px;
+    overflow: hidden;
+}
+

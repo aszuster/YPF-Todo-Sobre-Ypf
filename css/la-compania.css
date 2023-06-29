@@ -1,0 +1,373 @@
+.logoNegro {
+    position: relative;
+    top: 3px;
+}
+
+
+
+/* PAGINA LA COMPANIA */
+
+.section-video {
+    text-align: center;
+}
+.section-video hr {
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-video p {
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .section-video {
+        text-align: left;
+    }
+    .section-video hr {
+        margin-left: 0;
+        margin-right: auto;
+    }
+    .section-video p {
+        padding-right: 40px;
+    }
+}
+
+/* SECTION NUESTRO PROPOSITO */
+
+.nuestro-proposito .copy {
+    max-width: 523px;
+    margin: 0 auto 40px auto;
+}
+
+/* SECTION NUESTRO COMPROMISO */
+.nuestro-compromiso {
+    background: url("../images/la-compania/dots2.png") no-repeat left bottom;
+    background-size: 384px;
+}
+.nuestro-compromiso .copy {
+    margin-bottom: 30px;
+}
+.slider-compromiso {
+    overflow: hidden;
+    width: 100%!important;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.owl-compromiso {
+    margin-left: -50px;
+}
+.owl-carousel .owl-stage-outer {
+    overflow: visible;
+}
+
+@media only screen and (min-width: 992px) {
+    .nuestro-compromiso .copy {
+        max-width: 384px;
+    }
+}
+
+/* SECTION LIDERES */
+
+.owl-lideres {
+    margin-left: -50px;
+}
+.lideres {
+    background: none;
+}
+@media only screen and (min-width: 992px) {
+    .lideres .copy {
+        max-width: 100%;
+    }
+}
+#nav-lideres .owl-prev {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: relative;
+    top: 1px;
+}
+
+
+/* SECTION HISTORIAS */
+.wrapper-historias {
+    background-color: var(--grey-50);
+    padding: 40px 0;
+}
+.historias .col-right {
+    padding-left: 15px!important;
+}
+.box-historias {
+    padding: 0 15px ;
+    margin-bottom: 40px;
+}
+.box-historias small {
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    display: block;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    color: var(--grey-500);
+    font-weight: var(--fw-bold);
+}
+.box-historias p {
+    margin-bottom: 20px;
+}
+.owl-virtudes,
+.owl-historias {
+    margin-left: -50px;
+}
+.slider-counter-historias-desktop,
+.slider-counter-historias-desktop-big,
+.slider-counter-virtudes-desktop,
+.slider-counter-virtudes-desktop-big {
+    display: none;
+}
+.slider-counter-virtudes::before {
+    content: "0";
+}
+.slider-counter-virtudes-desktop:before {
+    content: "0";
+}
+.slider-counter-virtudes-desktop-big:before {
+    content: "0";
+}
+#aca2 .owl-prev,
+#aca-virtudes .owl-prev {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: relative;
+    top: 1px;
+}
+
+@media only screen and (min-width: 768px) {
+    .wrapper-historias {
+        padding: 0;
+    }
+    .historias {
+        display: flex;
+        padding: 100px 0;
+    }
+    .historias .col-left {
+        width: 37%;
+    }
+    .historias .col-right {
+        width: 63%;
+    }
+    .slider-counter-historias-desktop,
+    .slider-counter-virtudes-desktop {
+        display: inline-block!important;
+    }
+    .slider-counter-virtudes,
+    .slider-counter-historias {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .box-historias {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .historias .col-left {
+        width: 40%;
+    }
+    .historias .col-right {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .slider-counter-historias-desktop,
+    .slider-counter-virtudes-desktop {
+        display: none!important;
+    }
+    .slider-counter-virtudes-desktop-big,
+    .slider-counter-historias-desktop-big {
+        display: inline-block!important;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    /* .historias {
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+}
+
+/* SECTION SEDES */
+.sedes {
+    background: none;
+}
+/* .owl-sedes {
+    margin-left: -50px;
+} */
+
+#nav-sedes .owl-prev {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: relative;
+    top: 1px;
+}
+
+/* SECTION ATENCION AL CLIENTE */
+
+.atencion-al-cliente {
+    padding-top: 100px;
+    position: relative;
+    text-align: center;
+}
+.atencion-al-cliente .c-hr {
+    margin-left: auto;
+    margin-right: auto;
+}
+.atencion-al-cliente p {
+    margin-bottom: 24px;
+    padding: 0 15px;
+}
+.atencion-al-cliente:after {
+    content: "";
+    background-color: var(--grey-50);
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 9;
+    width: 100%;
+    height: 50%;
+}
+.atencion-al-cliente .row {
+    position: relative;
+    z-index: 99;
+}
+
+@media only screen and (min-width: 992px) {
+    .atencion-al-cliente:after {
+        content: "";
+        top: 0;
+        bottom: auto;
+        right: 0;
+        width: 50%;
+        height: 100%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .atencion-al-cliente {
+        text-align: left;
+    }
+    .atencion-al-cliente .c-hr {
+        margin-left: 0;
+    }
+    .atencion-al-cliente p {
+        padding: 0;
+    }
+}
+
+/* Section Logos */
+
+.logos {
+    padding: 40px 0;
+    overflow: hidden;
+    background: url("../images/la-compania/dots.png") no-repeat right bottom;
+}
+.owl-logos a:before {
+    content: "";
+    position: absolute;
+    right: -30px;
+    top: -10px;
+    background: url("../images/icons/arrow-blue.svg") center center no-repeat;
+    background-size: contain;
+    width: 14px;
+    display: block;
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    height: 14px;
+}
+.owl-logos .item {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+}
+.owl-logos a {
+    opacity: .4;
+    position: relative;
+    display: flex;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+.owl-logos a:hover {
+    opacity: 1;
+}
+/* .owl-logos img {
+    width: auto!important;
+    max-width: auto;
+    max-height: 89px;
+
+} */
+
+@media only screen and (min-width: 768px) {
+    /* .owl-logos img {
+        max-height: 59px;
+    } */
+}
+
+
+
+/* ARROWS OWL CAROUSEL */
+
+#aca .owl-prev {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: relative;
+    top: 1px;
+}
+.counter-box {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 60px;
+    color: var(--grey-900);
+}
+.cantidad {
+    color: var(--grey-500);
+}
+.cantidad i {
+    font-style: normal;
+    color: var(--primary-700);
+}
+.owl-nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+.owl-nav button {
+    background: transparent;
+    border: 0;
+    margin-right: 16px;
+}
+.owl-nav button img {
+    width: 32px;
+}
+.owl-nav .disabled {
+    opacity: .4;
+    filter: grayscale(100%);
+}
+

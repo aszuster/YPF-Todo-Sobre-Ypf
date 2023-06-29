@@ -1,0 +1,401 @@
+.img-full {
+  width: 100%;
+}
+
+/* HERO TEXT MORE PADDING RIGHT */
+
+.p-mr {
+  padding-right: 1.5rem;
+}
+
+.blue-number {
+  color: var(--primary-700);
+  font-size: var(--fs-200);
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-155);
+  letter-spacing: 0;
+}
+.sc-pda-mb {
+  margin-bottom: 60px;
+}
+.h2 {
+  line-height: 44px;
+}
+
+@media only screen and (min-width: 700px) {
+  .h2 {
+    line-height: 54px;
+  }
+}
+
+.h3 {
+  line-height: 32px;
+}
+
+@media only screen and (min-width: 700px) {
+  .h3 {
+    line-height: 44px;
+  }
+}
+
+.h4 {
+  line-height: 32px;
+}
+
+.list-title-mb {
+  margin-bottom: 12px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.pda-ul li {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: var(--fs-200);
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-155);
+  color: var(--grey-700);
+}
+
+.long-blue-hr {
+  border: 0;
+  height: 2px;
+  width: 200px;
+  margin: 20px 0 32px 0;
+  background-color: var(--primary-700);
+}
+
+.c-box-gray-only-text {
+  padding: 32px;
+  height: 224px;
+}
+
+.c-box-gray-only-text.box-principios {
+  padding: 32px;
+  height: 132px;
+}
+
+.c-box-gray-only-text .title {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.c-box-gray-only-text .bold-text {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.box-principios p {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: var(--fw-bold);
+}
+
+.c-box-gray-only-text .check-icon {
+  width: 20px !important;
+  height: 20px;
+  margin-bottom: 14px;
+}
+
+/* .owl-stage {
+  padding-left: 0px !important;
+} */
+
+/* BANNER */
+
+.banner-diversidad img {
+  width: 100%;
+}
+.banner-diversidad {
+  position: relative;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+}
+.banner-diversidad:after {
+  content: "";
+  background: url("../images/dots-white.png") no-repeat center center;
+  background-size: auto;
+  width: 156px;
+  height: 86px;
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+
+@media only screen and (min-width: 700px) {
+  .banner-diversidad img {
+    width: 100%;
+  }
+  .banner-diversidad {
+    background: #fafafa url("../images/plan-de-accion/panel-divider-dsk.png")
+      no-repeat center center;
+    background-size: cover;
+    position: relative;
+    height: 220px;
+    padding-bottom: 50px;
+    margin-bottom: 80px;
+    border-radius: 0px 24px;
+  }
+  .banner-diversidad:after {
+    content: "";
+    background: url("../images/dots-white.png") no-repeat center center;
+    background-size: contain;
+    width: 402px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0;
+  grid-auto-rows: minmax(100px, auto);
+  margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 700px) {
+  .grilla {
+    grid-gap: 20px;
+    margin-bottom: 80px;
+  }
+  .grilla img {
+    margin-bottom: 14px;
+  }
+  .col-sm-1.number {
+    max-width: 3.333333%;
+    padding-left: 0;
+  }
+  hr.ejes {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+  .mb-80 {
+    margin-bottom: 80px;
+  }
+}
+
+.grilla div {
+  padding: 44px;
+  background-color: var(--grey-100);
+  border-radius: 8px;
+}
+.grilla div p b {
+  color: var(--grey-900);
+  margin-bottom: 15px;
+  display: block;
+  font-size: 18px;
+  line-height: 24px;
+}
+.one {
+  background-color: var(--primary-700) !important;
+  color: white;
+}
+.one h6:after {
+  content: "";
+  display: block;
+  margin: 30px 0;
+  background-color: white;
+  height: 1px;
+  width: 120px;
+}
+.one p {
+  color: white;
+}
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight {
+  display: none;
+}
+
+.one {
+  grid-column: 1 / 4;
+  grid-row: 1 / 5;
+}
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1;
+}
+.three {
+  grid-column: 2;
+  grid-row: 2;
+}
+.four {
+  grid-column: 3;
+  grid-row: 2;
+}
+.five {
+  grid-column: 2;
+  grid-row: 3;
+}
+.six {
+  grid-column: 3;
+  grid-row: 3;
+}
+.seven {
+  grid-column: 2;
+  grid-row: 4;
+}
+.eight {
+  grid-column: 3;
+  grid-row: 4;
+}
+.grilla div ul {
+  font-size: var(--fs-200);
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-155);
+  color: var(--grey-700);
+}
+.grilla div ul {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.grilla div ul li {
+  list-style-type: disc;
+}
+@media only screen and (min-width: 700px) {
+  .one {
+    grid-column: 1;
+    grid-row: 1 / 5;
+  }
+  .two,
+  .three,
+  .four,
+  .five,
+  .six,
+  .seven,
+  .eight {
+    display: block;
+  }
+}
+
+.owl-siete-principios {
+  margin-left: -40px;
+  margin-bottom: 30px;
+}
+
+.owl-siete-principios .owl-stage-outer {
+  overflow: visible;
+}
+
+/* SECTION DIVERSIDAD ENERGIA */
+
+.owl-plan-de-accion {
+  margin-left: -40px;
+  margin-bottom: 30px;
+}
+
+.owl-plan-de-accion .owl-stage-outer {
+  overflow: visible;
+}
+
+#nav-plan-de-accion .owl-prev {
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  position: relative;
+  top: 1px;
+}
+
+/* ARROWS OWL CAROUSEL */
+
+#nav-plan-acc .owl-prev {
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  position: relative;
+  top: 1px;
+}
+.counter-box {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 60px;
+  color: var(--grey-900);
+}
+.cantidad {
+  color: var(--grey-500);
+}
+.cantidad i {
+  font-style: normal;
+  color: var(--primary-700);
+}
+.owl-nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+.owl-nav button {
+  background: transparent;
+  border: 0;
+  margin-right: 16px;
+}
+.owl-nav button img {
+  width: 32px;
+}
+.owl-nav .disabled {
+  opacity: 0.4;
+  filter: grayscale(100%);
+}
+
+.slider-energia-diversidad {
+  padding-left: 15px;
+  overflow: hidden;
+}
+
+/* ARROWS OWL CAROUSEL */
+
+#nav-siete-principios .owl-prev {
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  position: relative;
+  top: 1px;
+}
+.counter-box {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 60px;
+  color: var(--grey-900);
+}
+.cantidad {
+  color: var(--grey-500);
+}
+.cantidad i {
+  font-style: normal;
+  color: var(--primary-700);
+}
+.owl-nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+.owl-nav button {
+  background: transparent;
+  border: 0;
+  margin-right: 16px;
+}
+.owl-nav button img {
+  width: 32px;
+}
+.owl-nav .disabled {
+  opacity: 0.4;
+  filter: grayscale(100%);
+}
+
+.slider-siete-principios {
+  padding-left: 15px;
+  overflow: hidden;
+}
